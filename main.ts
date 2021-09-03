@@ -10,8 +10,8 @@ if (os.arch() === 'arm') {
   app.disableHardwareAcceleration();
 }
 
-const applicationName = 'Strax Wallet';
-const daemonName = 'Stratis.StraxD';
+const applicationName = 'Amaza Wallet';
+const daemonName = 'Stratis.Amaza';
 
 const args = process.argv.slice(1);
 const serve = args.some(val => val === '--serve' || val === '-serve');
