@@ -118,13 +118,13 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   private setTitle(): void {
-    const applicationName = 'Strax Wallet';
+    const applicationName = 'Time Shard Wallet (Stratis Fork)';
     const testnetSuffix = this.globalService.getTestnetEnabled() ? ' (testnet)' : '';
     const title = `${applicationName} ${this.globalService.getApplicationVersion()}${testnetSuffix}`;
     this.titleService.setTitle(title);
   }
 
   public openSupport(): void {
-    this.electronService.shell.openExternal('https://discord.gg/yb8SbycNQf');
+    this.electronService.shell.openExternal('https://discord.gg/sagetowers');
   }
 }
