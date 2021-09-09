@@ -10,7 +10,7 @@ if (os.arch() === 'arm') {
   app.disableHardwareAcceleration();
 }
 
-const applicationName = 'Time Shards Wallet';
+const applicationName = 'Time Shard Wallet';
 const daemonName = 'Stratis.Amaza';
 
 const args = process.argv.slice(1);
